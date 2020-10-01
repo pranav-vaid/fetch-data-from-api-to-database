@@ -1,0 +1,98 @@
+.lol-upcoming-widget {
+  width: 350px;
+  background-color: #171b23;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 6px 6px 0 0;
+}
+
+.lol-widgetHeader h3 {
+  background: #2f3541;
+  margin: 0;
+  padding: 25px 15px;
+  border-radius: 6px 6px 0 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+.lol-widgetBody {
+  max-height: 450px;
+  overflow-y: scroll;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.lol-widget-bottom {
+  border-radius: 0 0 6px 6px;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: #2f3541;
+  box-shadow: 0px -3px 4px rgba(13, 23, 32, 0.548);
+  bottom: -20px;
+}
+.datebar {
+  margin: 0;
+  padding: 6px 15px;
+  font-size: 0.8em;
+  background: #107f93;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.leaguebar {
+  display: block;
+  color: #ff4063;
+  font-weight: 500;
+  font-size: 0.6em;
+  letter-spacing: 0.09em;
+  padding: 5px 15px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.493);
+}
+.lol-match {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.897);
+  background: linear-gradient(to right, #107f939a, #262c3a 160px);
+  border-bottom: 1px solid #171b23;
+  padding: 6px 0;
+}
+
+.time {
+  width: 50px;
+  letter-spacing: 0.04em;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.851);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lol-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.lol-team-1::after {
+  content: "vs";
+  position: absolute;
+  right: -5px;
+  color: #ffffff77;
+  font-size: 0.7em;
+}
+
+.teamImage img {
+  height: 23px;
+  width: auto;
+  margin-right: 8px;
+}
+.teambar {
+  display: flex;
+  flex: 1;
+}
